@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Section1 from "./Section1";
 
 class SmartCryptApp extends React.Component {
     render() {
@@ -9,7 +10,7 @@ class SmartCryptApp extends React.Component {
                     <NavBar />
                 </header>
                 <main>
-
+                    <Section1 />
                 </main>
                 <footer>
 

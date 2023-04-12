@@ -3,7 +3,9 @@ import React from "react";
 function NavBar() {
     return (
         <nav className="sticky flex justify-between items-center p-4">
-            <img src={require('../assets/logo.png')} className="w-24" alt="logo" />
+            <a href="#">
+                <img src={require('../assets/logo.png')} className="w-24" alt="logo" />
+            </a>
             <ul className="flex">
                 <li className="text-primary-purple font-medium m-2 p-2 hover:font-bold">
                     <a href="#">News</a>
