@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Section1 from "./Section1";
+import Subscription from "./Subscription";
 
 class SmartCryptApp extends React.Component {
     render() {
@@ -11,6 +12,7 @@ class SmartCryptApp extends React.Component {
                 </header>
                 <main>
                     <Section1 />
+                    <Subscription />
                 </main>
                 <footer>
 
