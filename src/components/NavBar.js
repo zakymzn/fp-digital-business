@@ -4,7 +4,10 @@ function NavBar() {
     return (
         <nav className="sticky flex justify-between items-center p-4">
             <a href="#">
-                <img src={require('../assets/logo.png')} className="w-24" alt="logo" />
+                <div className="flex items-center">
+                    <img src={require('../assets/logo.png')} className="w-24" alt="logo" />
+                    <p className="text-primary-purple text-xl">Smart<span className="font-bold">Crypt</span></p>
+                </div>
             </a>
             <ul className="flex">
                 <li className="text-primary-purple font-medium m-2 p-2 hover:font-bold">
@@ -22,7 +25,6 @@ function NavBar() {
                             Explore Bounties
                         </div>
                     </a>
-
                 </li>
             </ul>
         </nav>
