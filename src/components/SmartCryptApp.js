@@ -5,11 +5,12 @@ import Subscription from "./Subscription";
 import ProjectItem from "./ProjectItem";
 import ForHackers from "./ForHackers";
 import ForProjects from "./ForProjects";
+import Footer from "./Footer";
 
 class SmartCryptApp extends React.Component {
     render() {
         return (
-            <div className="smart-crypt-app bg-gradient-to-b from-white to-secondary-purple">
+            <div id="home" className="smart-crypt-app bg-gradient-to-b from-white to-secondary-purple">
                 <header className="inline">
                     <NavBar />
                 </header>
@@ -69,8 +70,9 @@ class SmartCryptApp extends React.Component {
                     </section>
                     <div className="h-20" />
                 </main>
-                <footer>
-
+                <footer className="px-10">
+                    <Footer />
+                    <div className="h-10" />
                 </footer>
             </div>
         );

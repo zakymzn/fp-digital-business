@@ -4,8 +4,8 @@ function NavBar() {
     return (
         <nav className="sticky flex justify-between items-center p-4">
             <a href="#">
-                <div className="flex items-center">
-                    <img src={require('../assets/logo.png')} className="w-24" alt="logo" />
+                <div className="flex items-center space-x-2">
+                    <img src={require('../assets/logo.png')} className="w-14" alt="logo" />
                     <p className="text-primary-purple text-xl">Smart<span className="font-bold">Crypt</span></p>
                 </div>
             </a>

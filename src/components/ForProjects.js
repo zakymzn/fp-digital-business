@@ -9,7 +9,7 @@ function ForProjects() {
                 <div className="mt-10" />
                 <a href="#">
                     <div className="rounded-xl border-primary-purple border-2 py-4 text-center">
-                        <p className="text-primary-purple text-xl font-semibold">Sign Up</p>
+                        <p className="text-primary-purple text-xl font-semibold">Learn How</p>
                     </div>
                 </a>
             </div>
