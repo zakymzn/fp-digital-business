@@ -3,11 +3,13 @@ import NavBar from "./NavBar";
 import Headline from "./Headline";
 import Subscription from "./Subscription";
 import ProjectItem from "./ProjectItem";
+import ForHackers from "./ForHackers";
+import ForProjects from "./ForProjects";
 
 class SmartCryptApp extends React.Component {
     render() {
         return (
-            <div className="smart-crypt-app">
+            <div className="smart-crypt-app bg-gradient-to-b from-white to-secondary-purple">
                 <header className="inline">
                     <NavBar />
                 </header>
@@ -59,6 +61,13 @@ class SmartCryptApp extends React.Component {
                             </div>
                         </a>
                     </section>
+                    <div className="h-28"></div>
+                    <section>
+                        <ForHackers />
+                        <div className="my-16" />
+                        <ForProjects />
+                    </section>
+                    <div className="h-20" />
                 </main>
                 <footer>
 
