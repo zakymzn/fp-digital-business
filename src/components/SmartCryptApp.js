@@ -6,6 +6,7 @@ import ProjectItem from "./ProjectItem";
 import ForHackers from "./ForHackers";
 import ForProjects from "./ForProjects";
 import Footer from "./Footer";
+import Trusted from "./Trusted";
 
 class SmartCryptApp extends React.Component {
     render() {
@@ -16,8 +17,10 @@ class SmartCryptApp extends React.Component {
                 </header>
                 <main>
                     <Headline />
+                    <Trusted />
+                    <div className="h-16" />
                     <Subscription />
-                    <div className="h-20"></div>
+                    <div className="h-20" />
                     <section className="px-10">
                         <ProjectItem
                             logo={require('../assets/projects/cosmos-atom-logo 1.png')}
@@ -62,7 +65,7 @@ class SmartCryptApp extends React.Component {
                             </div>
                         </a>
                     </section>
-                    <div className="h-28"></div>
+                    <div className="h-28" />
                     <section>
                         <ForHackers />
                         <div className="my-16" />
