@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
     return (
-        <nav className="sticky flex justify-between items-center p-4">
+        <nav className="sticky flex justify-between top-0 p-4 bg-white">
             <a href="#">
                 <div className="flex items-center space-x-2">
                     <img src={require('../assets/logo.png')} className="w-14" alt="logo" />
@@ -11,10 +11,10 @@ function NavBar() {
             </a>
             <ul className="flex">
                 <li className="text-primary-purple font-medium m-2 p-2 hover:font-bold">
-                    <a href="#">News</a>
+                    <a href="#news">News</a>
                 </li>
                 <li className="text-primary-purple font-medium m-2 p-2 hover:font-bold">
-                    <a href="#">Learn</a>
+                    <a href="#learn">Learn</a>
                 </li>
                 <li className="text-primary-purple font-medium m-2 p-2 hover:font-bold">
                     <a href="#">Login</a>

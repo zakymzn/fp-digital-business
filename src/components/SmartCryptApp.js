@@ -7,6 +7,7 @@ import ForHackers from "./ForHackers";
 import ForProjects from "./ForProjects";
 import Footer from "./Footer";
 import Trusted from "./Trusted";
+import BodyCopy from "./BodyCopy";
 
 class SmartCryptApp extends React.Component {
     render() {
@@ -20,6 +21,8 @@ class SmartCryptApp extends React.Component {
                     <Trusted />
                     <div className="h-16" />
                     <Subscription />
+                    <div className="h-20" />
+                    <BodyCopy />
                     <div className="h-20" />
                     <section className="px-10">
                         <ProjectItem
@@ -58,15 +61,19 @@ class SmartCryptApp extends React.Component {
                             target={"DeFi & DEX"}
                             link={"#"} />
                     </section>
-                    <section className="flex justify-center">
+                    <div className="flex justify-center">
                         <a href="#">
                             <div className="bg-primary-purple bg-opacity-60 px-16 py-3 rounded-xl">
                                 <p className="text-white font-semibold">View All Bounties</p>
                             </div>
                         </a>
+                    </div>
+                    <div className="h-28" />
+                    <section id="news">
+
                     </section>
                     <div className="h-28" />
-                    <section>
+                    <section id="learn">
                         <ForHackers />
                         <div className="my-16" />
                         <ForProjects />
