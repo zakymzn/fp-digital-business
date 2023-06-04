@@ -8,6 +8,7 @@ import ForProjects from "./ForProjects";
 import Footer from "./Footer";
 import Trusted from "./Trusted";
 import BodyCopy from "./BodyCopy";
+import NewsPaginate from "./NewsPaginate";
 
 class SmartCryptApp extends React.Component {
     render() {
@@ -69,8 +70,16 @@ class SmartCryptApp extends React.Component {
                         </a>
                     </div>
                     <div className="h-28" />
-                    <section id="news">
-
+                    <section id="news" className="m-auto text-center w-2/3">
+                        <p className="font-semibold text-semibold text-primary-purple text-3xl">
+                            NEWS
+                        </p>
+                        <div className="h-5" />
+                        <p className="text-primary-purple">
+                            Find out about the newest and most exciting cybersecurity
+                        </p>
+                        <div className="h-5" />
+                        <NewsPaginate newsItemsPerPage={6} />
                     </section>
                     <div className="h-28" />
                     <section id="learn">
