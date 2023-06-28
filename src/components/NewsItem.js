@@ -13,7 +13,7 @@ function NewsItem({ newsImage, altNewsImg, newsTitle, newsSnippet, newsAuthorIma
                 <div className="flex items-center space-x-4">
                     <a href="#">
                         <div className="flex items-center">
-                            <img src={newsAuthorImage} alt={newsAuthorAltNewsImg} className="w-6" />
+                            <img src={newsAuthorImage} alt={newsAuthorAltNewsImg} className="w-6 rounded-full" />
                             <span className="m-2 text-primary-purple text-xs">{newsAuthorName}</span>
                         </div>
                     </a>
