@@ -107,13 +107,11 @@ const newsItems = [
 
 function Items({ currentItems }) {
     return (
-        <>
+        <div className="grid grid-cols-2">
             {currentItems && currentItems.map((item) => (
-                <div>
-                    <h3>{item}</h3>
-                </div>
+                <div>{item}</div>
             ))}
-        </>
+        </div>
     );
 }
 

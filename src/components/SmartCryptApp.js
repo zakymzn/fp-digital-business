@@ -70,7 +70,7 @@ class SmartCryptApp extends React.Component {
                         </a>
                     </div>
                     <div className="h-28" />
-                    <section id="news" className="m-auto text-center w-2/3">
+                    <section id="news" className="m-auto text-center w-11/12">
                         <p className="font-semibold text-semibold text-primary-purple text-3xl">
                             NEWS
                         </p>

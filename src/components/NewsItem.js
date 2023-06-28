@@ -5,12 +5,12 @@ import ReactPaginate from "react-paginate";
 function NewsItem({ newsImage, altNewsImg, newsTitle, newsSnippet, newsAuthorImage, newsAuthorAltNewsImg, newsAuthorName, newsComments, newsViews }) {
     return (
         <div className="flex m-10">
-            <img src={newsImage} alt={altNewsImg} className=" rounded-2xl w-40 h-40 object-cover" />
+            <img src={newsImage} alt={altNewsImg} className=" rounded-2xl w-32 h-32 object-cover" />
             <div className="w-10" />
             <div className="text-left space-y-4">
                 <p className="font-semibold text-lg text-primary-purple">{newsTitle}</p>
                 <p className="text-primary-purple">{newsSnippet}</p>
-                <div className="flex space-x-4">
+                <div className="flex items-center space-x-4">
                     <a href="#">
                         <div className="flex items-center">
                             <img src={newsAuthorImage} alt={newsAuthorAltNewsImg} className="w-6" />

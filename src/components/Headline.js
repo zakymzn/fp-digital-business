@@ -11,8 +11,8 @@ function Headline() {
                     Now is the time to begin your career as a Web3 bug hunter and earn cryptocurrency for each bug you discover
                 </p>
                 <div>
-                    <button className="bg-primary-purple text-white font-medium m-2 p-2 px-4 rounded-2xl">Explore Bounties</button>
-                    <button className="border-2 border-primary-purple text-primary-purple font-medium m-2 p-2 px-4 rounded-2xl">Get Protected</button>
+                    <button className="border-2 border-primary-purple bg-primary-purple text-white font-medium m-2 p-2 px-4 rounded-2xl hover:bg-opacity-50 hover:border-opacity-50">Explore Bounties</button>
+                    <button className="border-2 border-primary-purple text-primary-purple font-medium m-2 p-2 px-4 rounded-2xl hover:bg-primary-purple hover:text-white">Get Protected</button>
                 </div>
             </div>
         </section>
