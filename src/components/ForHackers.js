@@ -9,8 +9,8 @@ function ForHackers() {
                 <p className="text-primary-purple text-justify">Join SMARTCRYPT as a hacker to utilize your hacking skills in protecting DeFi users from theft and attacks. Earn fair compensation and rewards for your contributions in safeguarding the security of DeFi.</p>
                 <div className="mt-10" />
                 <a href="#">
-                    <div className="rounded-xl border-primary-purple border-2 py-4 text-center">
-                        <p className="text-primary-purple text-xl font-semibold">Sign Up</p>
+                    <div className="rounded-xl border-primary-purple text-primary-purple border-2 hover:bg-primary-purple hover:text-white py-4 text-center transition">
+                        <p className="text-xl font-semibold">Sign Up</p>
                     </div>
                 </a>
             </div>

@@ -8,8 +8,8 @@ function ForProjects() {
                 <p className="text-primary-purple text-justify">Safeguard your DeFi project with SMARTCRYPT top-notch security services. Benefit from thorough security audits, risk assessments, and expert consultations to protect your project's reputation and sustainability.</p>
                 <div className="mt-10" />
                 <a href="#">
-                    <div className="rounded-xl border-primary-purple border-2 py-4 text-center">
-                        <p className="text-primary-purple text-xl font-semibold">Learn How</p>
+                    <div className="rounded-xl border-primary-purple text-primary-purple hover:text-white hover:bg-primary-purple border-2 py-4 text-center transition">
+                        <p className="text-xl font-semibold">Learn How</p>
                     </div>
                 </a>
             </div>
