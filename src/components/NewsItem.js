@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import ReactDOM from 'react-dom';
-import ReactPaginate from "react-paginate";
+import React from "react";
 
 function NewsItem({ newsImage, altNewsImg, newsTitle, newsSnippet, newsAuthorImage, newsAuthorAltNewsImg, newsAuthorName, newsComments, newsViews }) {
     return (
@@ -19,28 +17,28 @@ function NewsItem({ newsImage, altNewsImg, newsTitle, newsSnippet, newsAuthorIma
                     </a>
                     <a href="#">
                         <div className="flex items-center">
-                            <img src={require('../assets/icons/iconamoon_comment-thin.png')} />
+                            <img src={require('../assets/icons/iconamoon_comment-thin.png')} alt="comments" />
                             <span className="m-2 text-primary-purple text-xs">{newsComments} Comments</span>
                         </div>
                     </a>
                     <a href="#">
                         <div className="flex items-center">
-                            <img src={require('../assets/icons/ph_eye-thin.png')} />
+                            <img src={require('../assets/icons/ph_eye-thin.png')} alt="views" />
                             <span className="m-2 text-primary-purple text-xs">{newsViews} Views</span>
                         </div>
                     </a>
                     <div className="flex items-center space-x-2">
                         <a href="#">
-                            <img src={require('../assets/icons/ph_share-network-thin.png')} />
+                            <img src={require('../assets/icons/ph_share-network-thin.png')} alt="share" />
                         </a>
                         <a href="#">
-                            <img src={require('../assets/icons/facebook.png')} className="w-6" />
+                            <img src={require('../assets/icons/facebook.png')} alt="facebook" className="w-6" />
                         </a>
                         <a href="#">
-                            <img src={require('../assets/icons/instagram.png')} className="w-6" />
+                            <img src={require('../assets/icons/instagram.png')} alt="instagram" className="w-6" />
                         </a>
                         <a href="#">
-                            <img src={require('../assets/icons/whatsapp.png')} className="w-8" />
+                            <img src={require('../assets/icons/whatsapp.png')} alt="whatsapp" className="w-8" />
                         </a>
                     </div>
                 </div>
