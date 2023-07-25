@@ -2,12 +2,12 @@ import React from "react";
 
 function NewsItem({ newsImage, altNewsImg, newsTitle, newsSnippet, newsAuthorImage, newsAuthorAltNewsImg, newsAuthorName, newsComments, newsViews }) {
     return (
-        <div className="flex m-10">
+        <div className="flex m-10 space-x-4">
             <img src={newsImage} alt={altNewsImg} className=" rounded-2xl w-32 h-32 object-cover" />
             <div className="w-10" />
             <div className="text-left space-y-4">
-                <p className="font-semibold text-lg text-primary-purple">{newsTitle}</p>
-                <p className="text-primary-purple">{newsSnippet}</p>
+                <p className="font-semibold text-lg text-primary-purple line-clamp-1">{newsTitle}</p>
+                <p className="text-primary-purple text-justify line-clamp-3">{newsSnippet}</p>
                 <div className="flex items-center space-x-4">
                     <a href="#">
                         <div className="flex items-center">
